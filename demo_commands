@@ -1,0 +1,11 @@
+
+python telugu_tokenizer.py "భారతదేశపు దక్షిణ  సముద్ర ప్రాంతంలో అది  ‘పార్సన్స్ పిగ్మాలియన్’ ప్రదేశ"   ' '
+python telugu_tokenizer.py "భారతదేశపు దక్షిణ \tసముద్ర ప్రాంతంలో అది \t ‘పార్సన్స్ పిగ్మాలియన్’ ప్రదేశ"   '\t'
+python telugu_tokenizer.py "భారతదేశపు దక్షిణ \tసముద్ర \nప్రాంతంలో అది \n ‘పార్సన్స్ పిగ్మాలియన్’ ప్రదేశ"   '\n'
+
+
+
+
+python newword_stemmer.py 	// stem_suffix_1L => stem+"\t"+suffix
+				// final_suffixes.txt => suffixes
+				//telugu_demo.txt => input words
